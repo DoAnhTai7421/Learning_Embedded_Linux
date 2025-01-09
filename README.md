@@ -1,2 +1,3 @@
 # Learning_Embedded_Linux
-Self-learning about embedded linux operating system
+# Self-learning about embedded linux operating system
+Self-learning about embedded linux operating system, including: Makefile, Thread, Socket, Pipe & FIFO, Message Queue, Semaphore...
