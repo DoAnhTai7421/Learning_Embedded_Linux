@@ -24,7 +24,7 @@ mk_objs:
 mk_shared_libs:
 	$(CC) -shared $(OBJ_DIR)/print_text.o $(OBJ_DIR)/calculate.o -o $(SHARED_LIB)/lib$(LIB_NAME).so
 
-install:
+install:  
 	cp -f $(SHARED_LIB)/lib$(LIB_NAME).so /usr/lib
 
 all: mk_objs mk_shared_libs install
